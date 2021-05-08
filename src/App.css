@@ -28,6 +28,12 @@
   color: #61dafb;
 }
 
+.ButtonGroup {
+  box-sizing: border-box;
+  width: 100%;
+  border: 5px solid black;
+  float: left;
+}
 
 @keyframes App-logo-spin {
   from {

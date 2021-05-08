@@ -49,9 +49,7 @@ function App() {
       <p align="center">
         This page shows every single ranking from 2015 until 2020
       </p>
-      <div
-        display="flex"
-      >
+      <div>
         <ButtonGroup>
           <Button onClick={() => setUrl('http://131.181.190.87:3000/rankings') + setrSelected('All')} active={rSelected === 'All'}>
             All
